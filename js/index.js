@@ -25,8 +25,16 @@ topbtns.addEventListener("mousewheel", event => {
 });
 
 //drag / drop
+// const -- = document.querySelector('');
+// --.addEventListener('click', event => {
+//     alert('ALERT BOX')
+// });
 
 //load
+// const -- = document.querySelector('');
+// --.addEventListener('click', event => {
+//     alert('ALERT BOX')
+// });
 
 //focus
 const signUp = document.querySelector('.destination .btn');
@@ -34,11 +42,21 @@ signUp.addEventListener('click', event => {
     alert('Get ready!');
 });
 //resize
+// const -- = document.querySelector('');
+// --.addEventListener('click', event => {
+//     alert('ALERT BOX')
+// });
 
 //scroll
-
+// const -- = document.querySelector('');
+// --.addEventListener('click', event => {
+//     alert('ALERT BOX')
+// });
 //select
-
+// const -- = document.querySelector('');
+// --.addEventListener('click', event => {
+//     alert('ALERT BOX')
+// });
 
 //NOTES:
 /* event.target.classList.add();
