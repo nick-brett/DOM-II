@@ -8,17 +8,21 @@ const funBus = document.querySelector('.logo-heading');
 funBus.addEventListener('mouseover', event => {
     alert('All aboard the fun bus!');
 });
+
 //keydown
-const homeBtn = document.querySelectorAll('.nav-link');
+//changes home button to red
+const homeBtn = document.querySelector('a');
 homeBtn.addEventListener('click', event => {
     homeBtn.style.color = "red";
 });
 
 //wheel
-const window = document.querySelector("");
-window.addEventListener('scroll', event => {
-    blurry.blur();
+
+const doc = document;
+doc.addEventListener("mousewheel", event => {
+    document.style.zoom = 25%
 });
+
 //drag / drop
 
 //load
