@@ -20,7 +20,7 @@ homeBtn.addEventListener('click', event => {
 
 const topbtns = document.querySelector('a');
 topbtns.addEventListener("mousewheel", event => {
-    doc.style.color = "grey";
+    topbtns.style.color = "grey";
     // append to list?
 });
 
@@ -29,8 +29,8 @@ topbtns.addEventListener("mousewheel", event => {
 //load
 
 //focus
-const vacation = document.querySelector('.destination .btn');
-vacation.addEventListener('click', event => {
+const signUp = document.querySelector('.destination .btn');
+signUp.addEventListener('click', event => {
     alert('Get ready!');
 });
 //resize
