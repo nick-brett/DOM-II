@@ -41,6 +41,6 @@ vacation.addEventListener('click', event => {
 
 //dblclick
 const vacation = document.querySelector('.lastpic');
-vacation.addEventListener('click', event => {
+vacation.addEventListener('dblclick', event => {
     alert('You could be here');
 });
