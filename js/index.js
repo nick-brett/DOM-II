@@ -39,6 +39,11 @@ signUp.addEventListener('click', event => {
 
 //select
 
+
+//NOTES:
+/* event.target.classList.add();
+ animation end -- fire when element css animation ends */
+
 //dblclick
 const vacation = document.querySelector('.lastpic');
 vacation.addEventListener('dblclick', event => {
