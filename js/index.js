@@ -14,9 +14,11 @@ homeBtn.addEventListener('click', event => {
     homeBtn.style.color = "red";
 });
 
-
 //wheel
-
+const window = document.querySelector("");
+window.addEventListener('scroll', event => {
+    blurry.blur();
+});
 //drag / drop
 
 //load
