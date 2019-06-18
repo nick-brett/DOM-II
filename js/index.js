@@ -18,9 +18,10 @@ homeBtn.addEventListener('click', event => {
 
 //wheel
 
-const doc = document;
-doc.addEventListener("mousewheel", event => {
-    document.style.zoom = 25%
+const topbtns = document.querySelector('a');
+topbtns.addEventListener("mousewheel", event => {
+    doc.style.color = "grey";
+    // append to list?
 });
 
 //drag / drop
@@ -28,7 +29,10 @@ doc.addEventListener("mousewheel", event => {
 //load
 
 //focus
-
+const vacation = document.querySelector('.destination .btn');
+vacation.addEventListener('click', event => {
+    alert('Get ready!');
+});
 //resize
 
 //scroll
@@ -36,3 +40,7 @@ doc.addEventListener("mousewheel", event => {
 //select
 
 //dblclick
+const vacation = document.querySelector('.lastpic');
+vacation.addEventListener('click', event => {
+    alert('You could be here');
+});
