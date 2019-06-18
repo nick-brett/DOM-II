@@ -17,11 +17,11 @@ homeBtn.addEventListener('click', event => {
 });
 
 //wheel
-
 const topbtns = document.querySelector('a');
 topbtns.addEventListener("mousewheel", event => {
     topbtns.style.color = "grey";
-    // append to list?
+    // append to list?????
+    // ?????????????????
 });
 
 //drag / drop
