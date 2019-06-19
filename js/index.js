@@ -47,9 +47,14 @@ signUp.addEventListener('click', event => {
 //     alert('ALERT BOX')
 // });
 
-//scroll
-// const -- = document.querySelector('');
-// --.addEventListener('click', event => {
+//zoom
+const zoom = document.querySelector('.img-fluid');
+zoom.addEventListener('wheel', event => {
+    event.preventDefault();
+    scale += event.deltaY * -0.01;
+    scale = Math.min(Math.max(.125, scale), 4);
+    zoom.style.transform = `scale(${scale})`
+});
 //     alert('ALERT BOX')
 // });
 //select
