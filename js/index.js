@@ -48,13 +48,16 @@ signUp.addEventListener('click', event => {
 // });
 
 //zoom
-const zoom = document.querySelector('.img-fluid');
+const zoom = document.querySelector('.img-fluid rounded');
 zoom.addEventListener('wheel', event => {
     event.preventDefault();
     scale += event.deltaY * -0.01;
     scale = Math.min(Math.max(.125, scale), 4);
     zoom.style.transform = `scale(${scale})`
 });
+// Not working!
+
+
 //     alert('ALERT BOX')
 // });
 //select
